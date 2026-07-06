@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 w-full z-50 shadow-xl" style={{height: `${NAVBAR_HEIGHT}px`}}
     >
-        <div className='flex justify-between items-center w-full py-3 px-8 bg-primary-700'>
+        <div className='flex justify-between items-center w-full py-3 px-8 bg-secondary-700'>
             <div className='flex items-center gap-4 md:gap-6'>
                 <Link href={'/'}
                 className='cursor-pointer hover:!text-primary-300 '
@@ -46,7 +46,7 @@ const Navbar = () => {
              </div> */}
 
              <div className='flex items-center gap-5'>
-  <Link href={'/sign-up'} 
+  <Link href={'/sign-In'} 
     className='text-primary-200 hover:!text-primary-300 transition-colors duration-200'>
     <Button variant="outline"
       className="text-primary-500 bg-secondary-600 rounded-lg
@@ -54,7 +54,7 @@ const Navbar = () => {
                  hover:bg-white hover:text-primary-700
                  hover:scale-105 hover:shadow-lg
                  active:scale-95">
-        Sign Up
+        Sign In
     </Button>
   </Link>
 
