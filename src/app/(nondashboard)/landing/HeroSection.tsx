@@ -14,7 +14,7 @@ const HeroSection = () => {
         fill
         className="object-cover object-center"
       />
-      <div className="absolute inset-0 bg-black bg-opacity-60">
+      <div className="absolute inset-0 bg-primary-700 bg-opacity-60">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -22,7 +22,7 @@ const HeroSection = () => {
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
         >
           <div className="max-w-4xl mx-5xl">
-            <h1 className="text-5xl font-bold text-white text-center mb-4">
+            <h1 className="text-5xl font-bold text-secondary-500 text-center mb-4">
               Find Your Perfect Rental
             </h1>
           </div>
