@@ -1,15 +1,15 @@
 "use client";
 
-import Image from 'next/image'
 import React from 'react'
 import { motion } from 'framer-motion'
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
     <div className="relative h-screen">
       
       <Image
-        src="/landing-splash.jpg"
+        src="/landing-call-to-action.jpg"
         alt="Rentiful Rental platform hero section"
         fill
         className="object-cover object-center"
